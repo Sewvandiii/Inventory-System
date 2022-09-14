@@ -1,0 +1,16 @@
+syntax = "proto3"; 
+option java_multiple_files = true; 
+package ds.w1898885.communication.grpc.generated; 
+
+message CheckInventoryStockRequest { 
+	string itemId = 1; 
+} 
+
+message CheckInventoryStockResponse { 
+	int32 inventoryStock = 1; 
+} 
+
+service InventoryStockService {
+rpc checkInventoryStock(CheckInventoryStockRequest) returns (CheckInventoryStockResponse); 
+} 
+
