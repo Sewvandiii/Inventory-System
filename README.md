@@ -1,2 +1,2 @@
-# Inventory-System-
+# Inventory-System
 Concurrent and Distributed Systems CW 02
